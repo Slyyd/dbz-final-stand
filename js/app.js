@@ -1,4 +1,4 @@
-import Character from "./classes/Character.js";
+import Character from "../js/classes/Character.js";
 
 let raceSelector = document.getElementById("raceSelector")
 
