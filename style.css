@@ -1,0 +1,91 @@
+body {
+
+    background-color: #212121;
+
+}
+
+.mainContent {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.formRace {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px black;
+    padding: 30px;
+}
+
+.formRace button {
+    border: none;
+    margin-top: 20px;
+    font-size: 1.5em;
+    transition: transform .3s ease;
+}
+
+.formRace button:hover {
+
+    transform: translateY(-2px);
+
+}
+
+.formRace select {
+    border: none;
+    font-size: 1.5em;
+}
+
+#statsDiv {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px black;
+    padding: 30px;
+    min-width: 95%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#statsDiv h1 {
+
+    font-size: 2.5em;
+
+}
+
+#statsDiv p {
+
+    font-size: 1em;
+    width: 50%;
+}
+
+#statsDiv input {
+    border: none;
+    border-radius: 2px;
+    min-width: 25%;
+}
+
+.PreRebDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PreRebDiv button {
+    border: none;
+    border-radius: 2px;
+    font-size: 1em;
+}
